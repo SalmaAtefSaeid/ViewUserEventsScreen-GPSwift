@@ -12,6 +12,11 @@
 		3A3887D0229FFA7700E8E71A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3887CE229FFA7700E8E71A /* Main.storyboard */; };
 		3A3887D2229FFA8800E8E71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3887D1229FFA8800E8E71A /* Assets.xcassets */; };
 		3A3887D5229FFA8800E8E71A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3887D3229FFA8800E8E71A /* LaunchScreen.storyboard */; };
+		3A3887DD22A0110900E8E71A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3887DC22A0110900E8E71A /* Event.swift */; };
+		3A3887E122A0137A00E8E71A /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A3887DE22A0137A00E8E71A /* image2.jpg */; };
+		3A3887E222A0137A00E8E71A /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A3887DF22A0137A00E8E71A /* image1.jpg */; };
+		3A3887E322A0137A00E8E71A /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A3887E022A0137A00E8E71A /* image3.jpg */; };
+		3A3887E522A0158100E8E71A /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3887E422A0158100E8E71A /* EventCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3A3887D1229FFA8800E8E71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A3887D4229FFA8800E8E71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A3887D6229FFA8800E8E71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3887DC22A0110900E8E71A /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		3A3887DE22A0137A00E8E71A /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		3A3887DF22A0137A00E8E71A /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		3A3887E022A0137A00E8E71A /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		3A3887E422A0158100E8E71A /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		3A3887C9229FFA7700E8E71A /* ViewUserEventsScreen */ = {
 			isa = PBXGroup;
 			children = (
+				3A3887DF22A0137A00E8E71A /* image1.jpg */,
+				3A3887DE22A0137A00E8E71A /* image2.jpg */,
+				3A3887E022A0137A00E8E71A /* image3.jpg */,
 				3A3887CA229FFA7700E8E71A /* AppDelegate.swift */,
 				3A3887CC229FFA7700E8E71A /* ViewController.swift */,
 				3A3887CE229FFA7700E8E71A /* Main.storyboard */,
 				3A3887D1229FFA8800E8E71A /* Assets.xcassets */,
 				3A3887D3229FFA8800E8E71A /* LaunchScreen.storyboard */,
 				3A3887D6229FFA8800E8E71A /* Info.plist */,
+				3A3887DC22A0110900E8E71A /* Event.swift */,
+				3A3887E422A0158100E8E71A /* EventCollectionViewCell.swift */,
 			);
 			path = ViewUserEventsScreen;
 			sourceTree = "<group>";
@@ -123,7 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3887D5229FFA8800E8E71A /* LaunchScreen.storyboard in Resources */,
+				3A3887E222A0137A00E8E71A /* image1.jpg in Resources */,
 				3A3887D2229FFA8800E8E71A /* Assets.xcassets in Resources */,
+				3A3887E322A0137A00E8E71A /* image3.jpg in Resources */,
+				3A3887E122A0137A00E8E71A /* image2.jpg in Resources */,
 				3A3887D0229FFA7700E8E71A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3887CD229FFA7700E8E71A /* ViewController.swift in Sources */,
+				3A3887E522A0158100E8E71A /* EventCollectionViewCell.swift in Sources */,
+				3A3887DD22A0110900E8E71A /* Event.swift in Sources */,
 				3A3887CB229FFA7700E8E71A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
