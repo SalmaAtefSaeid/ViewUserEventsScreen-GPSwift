@@ -34,6 +34,17 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         cell.eventImageView.image = UIImage(named: eventList[indexPath.item].eventImage)
         cell.eventTitleLabel.text = eventList[indexPath.item].eventTitle
         cell.eventDateLabel.text = eventList[indexPath.item].eventDate
+        cell.contentView.layer.cornerRadius = 2.0
+        cell.contentView.layer.borderWidth = 1.0
+        cell.contentView.layer.borderColor = UIColor.clear.cgColor
+        cell.contentView.layer.masksToBounds = true
+        
+        cell.layer.shadowColor = UIColor.black.cgColor
+        cell.layer.shadowOffset = CGSize(width: 0, height: 2.0)
+        cell.layer.shadowRadius = 2.0
+        cell.layer.shadowOpacity = 0.5
+        cell.layer.masksToBounds = false
+        cell.layer.shadowPath = UIBezierPath(roundedRect: cell.bounds, cornerRadius: cell.contentView.layer.cornerRadius).cgPath
         return cell
     }
 }
