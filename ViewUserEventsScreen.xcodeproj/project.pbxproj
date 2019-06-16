@@ -17,6 +17,7 @@
 		3A3887E222A0137A00E8E71A /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A3887DF22A0137A00E8E71A /* image1.jpg */; };
 		3A3887E322A0137A00E8E71A /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A3887E022A0137A00E8E71A /* image3.jpg */; };
 		3A3887E522A0158100E8E71A /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3887E422A0158100E8E71A /* EventCollectionViewCell.swift */; };
+		4A296AD322B6ABE600F357E5 /* SpeakerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A296AD222B6ABE600F357E5 /* SpeakerCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3A3887DF22A0137A00E8E71A /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 		3A3887E022A0137A00E8E71A /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 		3A3887E422A0158100E8E71A /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A296AD222B6ABE600F357E5 /* SpeakerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				3A3887D3229FFA8800E8E71A /* LaunchScreen.storyboard */,
 				3A3887D6229FFA8800E8E71A /* Info.plist */,
 				3A3887DC22A0110900E8E71A /* Event.swift */,
+				4A296AD222B6ABE600F357E5 /* SpeakerCollectionViewCell.swift */,
 				3A3887E422A0158100E8E71A /* EventCollectionViewCell.swift */,
 			);
 			path = ViewUserEventsScreen;
@@ -155,6 +158,7 @@
 			files = (
 				3A3887CD229FFA7700E8E71A /* ViewController.swift in Sources */,
 				3A3887E522A0158100E8E71A /* EventCollectionViewCell.swift in Sources */,
+				4A296AD322B6ABE600F357E5 /* SpeakerCollectionViewCell.swift in Sources */,
 				3A3887DD22A0110900E8E71A /* Event.swift in Sources */,
 				3A3887CB229FFA7700E8E71A /* AppDelegate.swift in Sources */,
 			);
